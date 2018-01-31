@@ -1,6 +1,6 @@
-def print_even(l):
-    for n in l:
-        if n % 2 == 0:
-            print ('\n',n)
-            return
-        print_even([4,5,6,7,8,9])
+lower=int(input("Enter the lower limit of the range:"))
+upper=int(input("Enter the upper limit of the range:"))
+for i in range(lower,upper+1):
+    if(i%2!= 0):
+        print(i)
+
